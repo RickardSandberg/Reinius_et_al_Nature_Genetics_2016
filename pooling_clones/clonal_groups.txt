@@ -1,0 +1,8 @@
+BQ_clone1
+BQ_clone2
+clone_3
+clone4_
+MAF_CxB_clone_A
+MAF_CxB_clone_B	MAF_CxB_RE_clone_B
+clone6_
+MEF_E14_Clone_BxC_H

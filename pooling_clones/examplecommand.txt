@@ -1,0 +1,1 @@
+python pool_and_plot4bars_v5.py -a okclonalcells_S20allelehits_blprchr_allowX.txt -f 0.9 -R 20 -gX chrX.genes.above20.on.clones.genelist -I -gA over20rpkm_okclonalcells_autosomal.genelist -o threebars_20rpkmset_withimpr_withX_v4r_bjornsXlist_withgreen.pdf -r -c clonal_groups.txt --cellXbar --sharedXbar --addgreen
