@@ -1,0 +1,1 @@
+python threshold_strainspec.py -i1 ensembl_nooverlap_ra5val_3percent_clonalcells_allelehits.txt -F1 0.02 --round ceil --minreadsboth 3 -o ensembl_nooverlap_ra5val_3percent_clonalcells_S20allelehits.txt
