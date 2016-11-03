@@ -1,0 +1,2 @@
+python pair_allele_overlap7.py -a splitcells_allelehits.txt -r splitcells_ensemblexcl_rpkms.txt -F -o monobig_barplot.pdf -c 0.1 0.22 0.46 1 2.2 4.6 10 22 46 100 220 460 -p A B C D E F G -b --ylim 0 0.4 -P 100
+# output order: min(95%CI bootstrap), max(95%CI bootstrap), median bootstrap(1000 randomisations), calculated value without bootstrap
