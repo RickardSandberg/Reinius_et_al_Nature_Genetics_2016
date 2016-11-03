@@ -17,4 +17,4 @@ sudo pip3 install numpy
 
 
 
-castsnps.txt and castsnps_alleles.txt are truncated (10k first lines) because of upload size limits
+castsnps.txt and castsnps_alleles.txt are truncated (10k first lines) because of upload size limits, but should function as example input files
