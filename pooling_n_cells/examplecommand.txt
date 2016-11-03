@@ -1,0 +1,1 @@
+python poolNreimpl.py -a ensembl_nooverlap_ra5val_3percent_clonalcells_S20allelehits.txt -gi over20rpkm_okclonalcells_autosomal.genelist -ge geneimprint_maternal.genelist geneimprint_paternal.genelist DeVeale_maternal.genelist DeVeale_paternal.genelist chr3only.genelist -s samples_ok_cloneB.txt -n 5 15 30 45 -R 100 -o poolN_clone6_skewedrand_2.pdf -r
