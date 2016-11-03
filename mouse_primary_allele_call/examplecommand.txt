@@ -1,0 +1,16 @@
+first edit cast_c57_bamfiles.txt, then
+python3.4 snp_stats2.py -MSF -p 20
+
+the folders cast/ c57/ cast_57/ and c57_cast/ are expected to exist (empty is fine)
+output will be in gene_by_cells_cast_c57_reads.txt, and intermediary files in cast_c57/
+
+
+
+afterwards this could be run for format conversion
+python cellcounts_to_rpkmf.py -r splitcells_ensemblexcl_rpkms.txt --noNA gene_by_cells_cast_c57_reads.txt splitcells_allelehits.txt --rpkmf_genes
+
+
+
+for dependencies, you can run
+sudo pip3 install joblib
+sudo pip3 install numpy
