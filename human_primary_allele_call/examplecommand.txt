@@ -1,0 +1,4 @@
+python make_allelecalls.py -PMCLHA -s snp142.txt -a refGene.txt -b bamfile1.bam bamfile2.bam bamfile3.bam -m outputfolder --minreadsH 3 --maxratioH 50 --folder_scheme sample.bam
+
+snp142.txt and refGene.txt from UCSC genome browser download page (http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/ for hg38)
+bamfile1.bam bamfile2.bam etc are input bam files
